@@ -1,0 +1,130 @@
+#map {
+   width=25%;
+    height: 25%;
+    display: block;
+}
+table, th, td {
+    border: 1px solid black;
+}
+h1 {
+        font-family: serif;
+    }
+    p {
+        font-size: 16px;
+        font-family:serif;
+    }
+     body {
+      background-color: moccasin;   
+    }    
+#download {
+   position: 
+}
+
+#Kitten {
+    width: 50em;
+    height: relative;
+    position: relative;
+}
+#ask {
+    position: 
+}
+.map {
+        width: 50em%;
+        height: 50em;
+        position: relative;
+}
+
+.organizer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 5em 1fr 5em;
+    grid-template-areas: "title title" "text image" "buttons buttons";
+    height: 100%;
+}
+
+.organize{
+    
+    
+}
+.organizetitle{
+    grid-area: title;
+}
+.organizebuttons{
+    grid-area: buttons;
+}
+.organizetext {
+    grid-area: text;
+}
+.organizeimage {
+    grid-area: image;
+}
+#headshot {
+        width: 50em;
+        height: 50em;
+        position: absolute;
+        max-width: 99%;
+        background-image:url(pic%205.jpg);
+        background-size:auto;
+    float:right;
+    }
+.Link {
+    border:none;
+        border-color: dodgerblue;
+        background-color: dodgerblue;
+        text-decoration-color: none;
+        color: black;
+        padding: 15px 32px;
+        text-align: center;
+        font-size: 16px;
+        margin: 4px 2px;
+        object-position:center-bottom;
+        position:relative;
+        bottom: 170px;
+        width: 50%;
+        opacity: 0.7;
+        transition: 0.3s;
+        display: inline-block;
+        cursor: pointer;
+        text-decoration: none;
+    }
+.Link: hover {
+    border-color: darkcyan;
+    opacity: 1;
+    background-color: darkcyan;
+}
+
+
+.button {
+    border:none;
+        border-color: beige;
+        background-color: beige;
+        text-decoration-color: none;
+        color: black;
+        padding: 15px 32px;
+        text-align: center;
+        font-size: 16px;
+        
+    }
+    .button:hover {
+        opacity: 1;
+        border-color: darkcyan;
+        background-color: darkcyan;
+
+}
+.alignment {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid grid-template-rows: auto auto auto;
+    background-color: dodgerblue;
+}
+.align {
+  background-color: lightblue;
+  border: 1px solid;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
