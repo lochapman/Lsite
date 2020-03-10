@@ -13,8 +13,8 @@ table, th, td {
     border: 1px solid black;
 }
 body {
-    max-height: ;
-    max-width: ;
+    max-height: relative;
+    max-width: relative;
 }
 
 h1 {
@@ -78,6 +78,15 @@ h1 {
         width: 50em;
         height: 50em;
         position: absolute;
+        max-width: 99%;
+        background-image:url(pic%205.jpg);
+        background-size:auto;
+    float:right;
+    }
+#headshot2 {
+        width: 50em;
+        height: 50em;
+        position: relative;
         max-width: 99%;
         background-image:url(pic%205.jpg);
         background-size:auto;
