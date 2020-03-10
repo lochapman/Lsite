@@ -61,6 +61,7 @@ h1 {
 }
 .organizebuttons{
     grid-area: buttons;
+    position: sticky;
 }
 .organizetext {
     grid-area: text;
