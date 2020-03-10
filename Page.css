@@ -12,6 +12,11 @@
 table, th, td {
     border: 1px solid black;
 }
+body {
+    max-height: ;
+    max-width: ;
+}
+
 h1 {
         font-family: serif;
     }
