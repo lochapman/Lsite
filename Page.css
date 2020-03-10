@@ -3,6 +3,12 @@
     height: 25%;
     display: block;
 }
+
+#header {
+    position: sticky;
+    top: 1em;
+}
+
 table, th, td {
     border: 1px solid black;
 }
@@ -18,6 +24,10 @@ h1 {
     }    
 #download {
    position: 
+}
+
+.tabletops {
+    grid-area: text;
 }
 
 #Kitten {
