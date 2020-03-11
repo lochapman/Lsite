@@ -1,6 +1,6 @@
 #map {
-   width=25%;
-    height: 25%;
+   width=10%;
+    height: 10%;
     display: block;
 }
 
@@ -44,7 +44,7 @@ h1 {
     position: 
 }
 .map {
-        width: 50em%;
+        width: 40em;
         height: 50em;
         position: relative;
 }
