@@ -13,8 +13,8 @@ table, th, td {
     border: 1px solid black;
 }
 body {
-    max-height: relative;
-    max-width: relative;
+    max-height: 140vh;
+    max-width: 140vh;
 }
 
 h1 {
@@ -55,6 +55,12 @@ h1 {
     grid-template-rows: 5em 1fr 5em;
     grid-template-areas: "title title" "text image" "buttons buttons";
     height: 100%;
+}
+.altorgan {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 5em 5em;
+    grid-template-areas: "tabletop" "Coding";
 }
 
 .organize{
@@ -117,7 +123,9 @@ h1 {
     opacity: 1;
     background-color: darkkhaki;
 }
-
+.Coding {
+    
+}
 
 .button {
     border:none;
