@@ -1,7 +1,7 @@
 #map {
-   width=10%;
+   width: 10%;
     height: 10%;
-    display: block;
+    display:block;
 }
 
 #header {
@@ -12,11 +12,6 @@
 table, th, td {
     border: 1px solid black;
 }
-body {
-    max-height: 140vh;
-    max-width: 140vh;
-}
-
 h1 {
         font-family: serif;
     }
@@ -28,11 +23,14 @@ h1 {
       background-color: moccasin;   
     }    
 #download {
-   position: 
+  position: absolute;
+    top: 60px;
+
 }
 
 .tabletops {
     grid-area: text;
+    
 }
 
 #Kitten {
@@ -44,9 +42,9 @@ h1 {
     position: 
 }
 .map {
-        width: 40em;
+        width: 50em;
         height: 50em;
-        position: relative;
+        
 }
 
 .organizer{
@@ -56,7 +54,7 @@ h1 {
     grid-template-areas: "title title" "text image" "buttons buttons";
     height: 100%;
 }
-.altorgan {
+.altOrgan {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 5em 5em;
